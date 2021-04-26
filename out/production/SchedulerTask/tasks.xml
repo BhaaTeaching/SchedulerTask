@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<catalog>
+	<SchedulerTask
+		id = "1"
+		Name="Print	Command"
+		Type="Command"
+		Details="echo task 1"
+		Time="18:30"
+		BasedOn=""/>
+</catalog>
