@@ -7,7 +7,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 
 public interface FileBasedTasksRepository {
-    public void readSchedulerTasksFile() throws IOException, ParserConfigurationException, SAXException;
+    public CatalogDto readSchedulerTasksFile() throws IOException, ParserConfigurationException, SAXException;
     public void searchAndRunPassedTasks(CatalogDto catalogDto);
     public void runTasks(CatalogDto catalogDto);
 }

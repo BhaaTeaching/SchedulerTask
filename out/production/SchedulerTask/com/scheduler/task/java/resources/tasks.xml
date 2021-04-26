@@ -7,4 +7,11 @@
 		Details="echo task 1"
 		Time="18:30"
 		BasedOn=""/>
+	<SchedulerTask
+			id = "2"
+			Name="Run Script"
+			Type="Script"
+			Details="c:\example.bat"
+			Time="18:30"
+			BasedOn="1"/>
 </catalog>
